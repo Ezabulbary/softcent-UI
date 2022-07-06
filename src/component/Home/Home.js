@@ -1,10 +1,13 @@
 import React from 'react';
+import Hero from '../Pages/Hero/Hero';
+import PageTitle from '../shared/PageTitle/PageTitle';
 import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <p id='home' className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, animi?</p>
+            <PageTitle title='Home'></PageTitle>
+            <Hero/>
         </div>
     );
 };

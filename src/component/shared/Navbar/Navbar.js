@@ -1,11 +1,29 @@
 import React from 'react';
+import Logo from '../../../Images/logo/softcent.png';
+import { Outlet } from "react-router-dom";
+import CustomLink from '../CustomLink/CustomLink';
 import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div>
-            <h2>Navbar</h2>
-        </div>
+        <nav id='navbar-id'>
+            <div className='navbar'>
+                <div>
+                    <img className='nav-logo' src={Logo} alt={Logo} />
+                </div>
+                <div className='nav-menu'>
+                    <ul>
+                        <li><CustomLink to='/'>Home</CustomLink></li>
+                        <li><CustomLink to='/about'>About</CustomLink></li>
+                        <li><CustomLink to='/work'>Work</CustomLink></li>
+                        <li><CustomLink to='/products'>Premium Products</CustomLink></li>
+                        <li><CustomLink to='/blogs'>Blog</CustomLink></li>
+                        <button className='nav-btn'>start a project</button>
+                    </ul>
+                </div>
+            </div>
+            <Outlet />
+        </nav>
     );
 };
 
