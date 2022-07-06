@@ -1,3 +1,10 @@
-.footer{
+#footer-id {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: center;
 }

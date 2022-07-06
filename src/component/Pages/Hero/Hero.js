@@ -17,7 +17,7 @@ const Hero = () => {
                         <img src={DemoBox} alt={DemoBox} />
                     </div>
                 </div>
-                <video className='hero-video' src={HeroMp4} controls loop></video>
+                <video className='hero-video' src={HeroMp4} controls muted autoPlay loop></video>
             </div>
         </section>
     );

@@ -1,0 +1,26 @@
+#customer-id {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.customer {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.customer-title {
+    position: relative;
+    font-family: 'Overlock', cursive;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 126px;
+}
+
+.underline {
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    left: 605px;
+}
