@@ -1,5 +1,6 @@
 #hero-id {
     width: 1440px;
+    height: 1105px;
     margin: 0 auto;
     margin-top: 0;
     background: rgb(243, 244, 245);
@@ -9,13 +10,12 @@
 .hero {
     margin-left: 150px;
     margin-right: 150px;
-    z-index: 1;
+    position: relative;
 }
 
 .hero-article {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .hero-title {
@@ -48,12 +48,14 @@
 
 .hero-demo-box {
     position: absolute;
-    top: 100px;
-    right: 150px;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .hero-video {
     width: 1140px;
     padding-top: 67px;
-    z-index: 3;
+    position: absolute;
+    z-index: 10;
 }

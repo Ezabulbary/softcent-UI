@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../../Images/logo/softcent.png';
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import CustomLink from '../CustomLink/CustomLink';
 import './Navbar.css';
 
@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav id='navbar-id'>
             <div className='navbar'>
                 <div>
-                    <img className='nav-logo' src={Logo} alt={Logo} />
+                    <Link to='/'><img className='nav-logo' src={Logo} alt={Logo} /></Link>
                 </div>
                 <div className='nav-menu'>
                     <ul>
