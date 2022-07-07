@@ -12,7 +12,7 @@ const Customer = () => {
             <div className='customer'>
                 <div className='customer-title-container'>
                     <h1 className='customer-title'>Our Customers</h1>
-                    <img className='customer-underline' src={Underline} alt={Underline} />
+                    <img className='customer-underline' src={Underline} alt='underlineImage' />
                 </div>
                 <div className='customer-logo-container'>
                     <img src={Customer1} alt='logo' />

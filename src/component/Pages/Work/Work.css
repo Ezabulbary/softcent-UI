@@ -1,10 +1,70 @@
-#hero-id {
+#work-id {
     width: 1440px;
+    height: 750px;
     margin: 0 auto;
-    background: linear-gradient(90deg, rgba(246, 246, 246, 1) 0%, rgba(240, 249, 255, 1) 25%, rgba(246, 246, 246, 1) 50%, rgba(251, 251, 251, 1) 64%, rgba(232, 246, 255, 1) 94%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(247, 240, 236, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(251, 251, 251, 1) 64%, rgba(232, 246, 255, 1) 82%, rgba(255, 255, 255, 1) 100%);
 }
 
-.hero {
+.work {
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.work-title-container {
+    position: relative;
+}
+
+.work-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.work-underline {
+    height: 26px;
+    width: 194px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 91px;
+}
+
+.work-list-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.work-image {
+    height: 53px;
+    width: 53px;
+    margin-right: 20px;
+}
+
+.work-list-title {
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.work-list {
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+}
+
+.work-list> li{
+    margin-bottom: 26px;
 }
