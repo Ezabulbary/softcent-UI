@@ -8,19 +8,31 @@
     margin-right: 150px;
 }
 
-.customer-title {
+.customer-title-container {
     position: relative;
+}
+
+.customer-title {
     font-family: 'Overlock', cursive;
-    font-style: bold;
+    font-weight: bold;
     font-size: 36px;
     line-height: 46px;
     text-align: center;
     margin-top: 126px;
+    margin-bottom: 102px;
 }
 
-.underline {
-    width: 240px;
+.customer-underline {
+    height: 26px;
+    width: 215px;
     position: absolute;
-    top: 0px;
-    left: 605px;
+    top: 37px;
+    left: 505px;
+}
+
+.customer-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 164px;
 }

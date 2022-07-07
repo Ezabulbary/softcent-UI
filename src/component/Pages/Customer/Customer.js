@@ -10,14 +10,15 @@ const Customer = () => {
     return (
         <section className='customer-id'>
             <div className='customer'>
-                <div>
-                    <h1 className='customer-title'>Our Customers<img className='underline' src={Underline} alt={Underline} /></h1>
+                <div className='customer-title-container'>
+                    <h1 className='customer-title'>Our Customers</h1>
+                    <img className='customer-underline' src={Underline} alt={Underline} />
                 </div>
-                <div>
-                    <img src={Customer1} alt={Customer1} />
-                    <img src={Customer2} alt={Customer2} />
-                    <img src={Customer3} alt={Customer3} />
-                    <img src={Customer4} alt={Customer4} />
+                <div className='customer-logo-container'>
+                    <img src={Customer1} alt='logo' />
+                    <img src={Customer2} alt='logo' />
+                    <img src={Customer3} alt='logo' />
+                    <img src={Customer4} alt='logo' />
                 </div>
             </div>
         </section>
