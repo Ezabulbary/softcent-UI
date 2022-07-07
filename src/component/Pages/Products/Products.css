@@ -65,12 +65,10 @@
 
 .product {
     margin-left: 150px;
-    background-color: #FFFFFF;
     display: flex;
 }
 
 .product1 {
-    background-color: #FFFFFF;
     display: flex;
     padding-bottom: 140px;
 }
@@ -78,8 +76,9 @@
 .product-details {
     height: 585px;
     width: 570px;
-    margin-left: 66px;
-    margin-right: 60px;
+    background-color: #FFFFFF;
+    padding-left: 66px;
+    padding-right: 60px;
 }
 
 .product-title {
