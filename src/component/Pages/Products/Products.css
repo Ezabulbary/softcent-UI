@@ -1,10 +1,117 @@
-#hero-id {
+#product-id {
     width: 1440px;
     margin: 0 auto;
-    background: linear-gradient(90deg, rgba(246, 246, 246, 1) 0%, rgba(240, 249, 255, 1) 25%, rgba(246, 246, 246, 1) 50%, rgba(251, 251, 251, 1) 64%, rgba(232, 246, 255, 1) 94%);
+    padding-top: 80px;
+    background-color: #F9F9F9;
 }
 
-.hero {
+.product-title-container {
     margin-left: 150px;
     margin-right: 150px;
+    position: relative;
+}
+
+.product-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 49px;
+}
+
+.product-underline {
+    height: 26px;
+    width: 194px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.product-sub-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.product-page-sub-title {
+    height: 60px;
+    width: 582px;
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.product-btn1 {
+    color: #FFFFFF;
+    background-color: #2D5BFF;
+    padding: 15px 37px;
+    border: 1px solid #2D5BFF;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+/* product-container */
+
+.product-container {
+    width: 1290px;
+}
+
+.product {
+    margin-left: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.product1 {
+    background-color: #FFFFFF;
+    display: flex;
+    padding-bottom: 140px;
+}
+
+.product-details {
+    height: 585px;
+    width: 570px;
+    margin-left: 66px;
+    margin-right: 60px;
+}
+
+.product-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 129px;
+    margin-bottom: 35px;
+}
+
+.product-sub-title {
+    width: 445px;
+    height: 160px;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.product-btn {
+    color: rgba(4, 4, 21, 0.8);
+    background-color: rgba(48, 136, 255, 0.12);
+    padding: 10px 24px;
+    border: 1px solid rgba(48, 136, 255, 0.12);
+    border-radius: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.product-image {
+    height: 585px;
+    width: 720px;
 }
