@@ -1,10 +1,139 @@
 #footer-id {
     width: 1440px;
+    padding-top: 56px;
     margin: 0 auto;
+    background-color: #FFFAF3;
 }
 
 .footer {
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.footer-contact-bar {
+    width: 1138px;
+    height: 180px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3088FF;
+    margin-bottom: 72px;
+}
+
+.footer-contact-title {
+    width: 274px;
+    height: 92px;
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-family: 'Overlock', cursive;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.footer-btn {
+    color: #3088FF;
+    background-color: #FFFFFF;
+    margin-right: 60px;
+    padding: 18px 21px;
+    border: 1px solid #3088FF;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.footer-content-link {
+    height: 373px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 132px;
+    height: 87px;
+}
+
+.footer-logo-subtitle {
+    width: 256px;
+    height: 64px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.footer-phone {
+    margin-top: 14px;
+    margin-bottom: 35px;
+}
+
+.social-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 20px;
+}
+
+.color-f {
+    color: #3088FF;
+}
+
+.color {
+    color: rgba(4, 4, 21, 0.46);
+}
+
+.footer-content-list {
     text-align: center;
+}
+
+.footer-content-list-second {
+    margin-left: 60px;
+}
+
+.content-list-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 26px;
+}
+
+.content-list {
+    text-decoration: none;
+    display: flex;
+    margin: 14px 0 14px 100px;
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.content-list-second {
+    text-decoration: none;
+    display: flex;
+    margin: 14px 0 14px 0;
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-copyright {
+    color: #040415;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 0 32px 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
 }
