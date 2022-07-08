@@ -63,7 +63,7 @@ const Footer = () => {
                 <hr />
 
                 <div>
-                    <p className='footer-copyright'><FontAwesomeIcon icon={faCopyright} /> 2021, Softcent EU, A European IT company</p>
+                    <p className='footer-copyright'><FontAwesomeIcon className='footer-copyright-icon' icon={faCopyright} /> 2021, Softcent EU, A European IT company</p>
                 </div>
             </div>
         </footer>
