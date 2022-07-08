@@ -1,0 +1,32 @@
+#workflow-id {
+    width: 1440px;
+    height: 865px;
+    margin: 0 auto;
+    padding-top: 69px;
+    background: rgb(236, 244, 255);
+    background: linear-gradient(90deg, rgba(236, 244, 255, 1) 0%, rgba(247, 252, 255, 1) 25%, rgba(255, 255, 255, 1) 46%, rgba(255, 252, 249, 1) 63%, rgba(255, 247, 232, 1) 82%, rgba(255, 248, 237, 1) 100%);
+}
+
+.workflow {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+}
+
+.workflow-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 114px;
+    text-align: center;
+}
+
+.workflow-underline {
+    height: 15px;
+    width: 172px;
+    position: absolute;
+    top: 50px;
+    left: 485px;
+}
