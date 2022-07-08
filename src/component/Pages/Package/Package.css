@@ -1,0 +1,134 @@
+#package-id {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 146px;
+}
+
+.package {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+}
+
+.package-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.package-underline {
+    height: 21px;
+    width: 151px;
+    position: absolute;
+    top: 50px;
+    left: 494px;
+}
+
+.package-page-sub-title {
+    height: 60px;
+    width: 552px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.page-button-container {
+    margin: 52px 0 83px 425px;
+}
+
+.package-btn1 {
+    color: #000000;
+    background-color: rgba(48, 136, 255, 0.16);
+    padding: 11px 34px;
+    border: 1px solid rgba(48, 136, 255, 0.16);
+    border-radius: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.package-btn2 {
+    color: #FFFFFF;
+    background-color: #2D5BFF;
+    padding: 11px 42px;
+    border: 1px solid #2D5BFF;
+    border-radius: 7px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+/* package-list-container */
+
+.package-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 138px;
+}
+
+.list-container {
+    width: 350px;
+    background-color: rgba(48, 136, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px 17px;
+}
+.list-container-second {
+    width: 350px;
+    color: #FFFFFF;
+    background-color: #2D5BFF;
+    border-radius: 12px;
+    padding: 20px 17px;
+}
+
+.list-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.title {
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    list-style: 34px;
+    border-bottom: 7px solid #F6A00E;
+}
+
+.price {
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: 24px;
+}
+
+.list>li {
+    list-style: none;
+    margin-bottom: 19px;
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.list-btn {
+    color: #FFFFFF;
+    background-color: #F6A00E;
+    padding: 12px 99px;
+    margin: 30px 0 27px 38px;
+    border: 1px solid #F6A00E;
+    border-radius: 12px;
+    font-family: 'Overlock', cursive;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}

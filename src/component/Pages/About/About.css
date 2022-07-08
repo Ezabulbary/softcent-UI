@@ -1,10 +1,124 @@
-#hero-id {
+#about-id {
     width: 1440px;
+    height: 670px;
     margin: 0 auto;
-    background: linear-gradient(90deg, rgba(246, 246, 246, 1) 0%, rgba(240, 249, 255, 1) 25%, rgba(246, 246, 246, 1) 50%, rgba(251, 251, 251, 1) 64%, rgba(232, 246, 255, 1) 94%);
 }
 
-.hero {
+.about {
     margin-left: 150px;
     margin-right: 150px;
+    position: relative;
+}
+
+.about-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.about-underline {
+    height: 21px;
+    width: 151px;
+    position: absolute;
+    top: 50px;
+    left: 494px;
+}
+
+/* about container */
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.article-quote1 {
+    margin-bottom: 167px;
+    position: relative;
+}
+
+.about-article {
+    height: 139px;
+    width: 457px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: justify;
+    position: absolute;
+    top: 170px;
+    left: 67px;
+}
+
+.article-quote2 {
+    position: absolute;
+    top: 280px;
+    left: 367px;
+}
+
+.about-profile {
+    margin-left: 67px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.about-person-image {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.about-person-name {
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.about-person-position {
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.dot-container{
+    margin: 64px 0 0 67px;
+    display: flex;
+}
+
+.dot-span {
+    height: 11px;
+    width: 26px;
+    border-radius: 22px;
+    background-color: #2D5BFF;
+    margin-right: 7px;
+}
+
+.dot-span1 {
+    height: 11px;
+    width: 11px;
+    border-radius: 22px;
+    background-color: #CEDEF4;
+    margin-right: 7px;
+}
+
+.about-image1 {
+    margin-left: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-image2 {
+    position: absolute;
+    top: 40px;
+    right: -85px;
+    z-index: 1;
 }
