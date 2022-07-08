@@ -14,14 +14,21 @@ const Workflow = () => {
 
                 <div className="workflow-container">
                     <div className="workflow-detail">
-                        <div>
-                            
+                        <div className='workflow-first-list'>
+                            <ol className='workflow-first-list-title'>1. Defining Goal</ol>
+                            <p className='workflow-first-list-detail'>Project analysis, defining project requirements and objectives based on clients needs, cost and effort estimation, creating value and process planning.</p>
                         </div>
-                        <div></div>
+                        <div className='workflow-list'>
+                            <ol>2. Product Design</ol>
+                            <ol>3. Development</ol>
+                            <ol>4. Testing</ol>
+                            <ol>5. Product Release</ol>
+                            <ol>6. Maintenance Support</ol>
+                        </div>
                     </div>
 
-                    <div className="workflow-image">
-                        <img src={WorkflowImage} alt="" />
+                    <div>
+                        <img className="workflow-image" src={WorkflowImage} alt="" />
                     </div>
                 </div>
             </div>
