@@ -1,0 +1,87 @@
+#technology-id {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.technology {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+}
+
+.dev-technology-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 86px;
+    text-align: center;
+}
+
+.dev-technology-underline {
+    height: 21px;
+    width: 236px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+.dev-list-container{
+    margin-bottom: 93px;
+}
+
+.dev-list {
+    display: inline;
+    margin: 0 50px;
+    padding-bottom: 12px;
+    color: #040415;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 32px;
+    border-bottom: 4px solid rgba(45, 91, 255, 0.1);
+}
+
+.fancy-border {
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #2D5BFF 0%, #2D5BFF 50%, rgba(45, 91, 255, 0.1) 51%, rgba(45, 91, 255, 0.1) 100%)2;
+}
+
+.dev-image-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 163px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.design-image-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 163px;
+    justify-content: center;
+    margin-bottom: 132px;
+}
+
+.technology-image{
+    border-radius: 22px;
+}
+
+.design-technology-page-title {
+    color: #040415;
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 114px;
+    text-align: center;
+}
+
+.design-technology-underline {
+    height: 21px;
+    width: 236px;
+    position: absolute;
+    top: 530px;
+    left: 450px;
+}

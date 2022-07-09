@@ -5,6 +5,7 @@ import Hero from '../Pages/Hero/Hero';
 import Package from '../Pages/Package/Package';
 import Portfolio from '../Pages/Portfolio/Portfolio';
 import Products from '../Pages/Products/Products';
+import Technology from '../Pages/Technology/Technology';
 import Work from '../Pages/Work/Work';
 import Workflow from '../Pages/Workflow/Workflow';
 import PageTitle from '../shared/PageTitle/PageTitle';
@@ -21,6 +22,7 @@ const Home = () => {
             <Package></Package>
             <About></About>
             <Portfolio></Portfolio>
+            <Technology></Technology>
             <Workflow></Workflow>
         </>
     );
